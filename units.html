@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        #pixel h1{
+            font-size: 50px; /* Depends on the pixel of the screen*/
+        }
+        #percent {
+            width: 50%;
+             background-color: crimson ; /*Depends upon the size of parent  */
+        }
+        /* Depends upon the height and width of the screen */
+        #vw-vh{
+            width: 30vw;
+            height: 30vh;
+            background-color: dodgerblue;
+        }
+        #vw{
+            width: 50vw;
+            height: 20vh;
+            background-color: crimson;
+        }
+        #vw h2{
+            font-size: 5vw;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pixel -->
+     <div id="pixel">
+        <h1>Hi! I'm Biki</h1>
+     </div>
+
+     <!-- Percentage -->
+      <div id="percent">
+        <h1>Hi! I'm Biki</h1>
+      </div>
+
+      <!-- vw- viewport width and vh- viewport height -->
+
+      <div id="vw-vh">
+        <div id="vw">
+        <h2>Hi! I'm Biki</h2>
+        </div>
+      </div>
+</body>
+</html>
